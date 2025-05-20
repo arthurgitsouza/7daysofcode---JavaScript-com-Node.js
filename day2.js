@@ -3,7 +3,7 @@ const readline = require('readline') // Chamando uma biblioteca do Node.js, assi
 // OBS: require() função que importa uma biblioteca no JS
 
 const rl = readline.createInterface({  // rl: Nome que estou atribuindo a interface
-    input: process.stdin, // Entrada de dados por meio do TECLADO
+    input: process.stdin, // Entrada de dados por meio do TECLADO, por que o uso de : ? Funciona da mesma forma que um dicionário, com keys e values.
     output: process.stdout // Saida de dados por meio do TERMINAL
 })
 
