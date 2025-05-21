@@ -13,7 +13,6 @@ const categorias = {
     Doces: []
 };
 
-// Verifica se existe ao menos um item na lista
 function listaTemItens() {
     return Object.values(categorias).some(lista => lista.length > 0);
 }
@@ -99,7 +98,7 @@ function removerItem() {
 }
 
 function mostrarLista() {
-    console.log('\n🛒 Lista de compras:');
+    console.log('\nLista de compras:');
     for (let categoria in categorias) {
         const itens = categorias[categoria];
         const frase = itens.length > 1
@@ -109,6 +108,5 @@ function mostrarLista() {
     }
 }
 
-// Iniciar programa
-console.log('📋 Bem-vindo à sua lista de compras interativa!');
+console.log('Bem-vindo à sua lista de compras interativa!');
 perguntarAcao();
