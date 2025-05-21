@@ -90,7 +90,7 @@ function removerItem() {
         }
 
         if (!encontrado) {
-            console.log('❌ Não foi possível encontrar o item dentro da lista!\n');
+            console.log('Não foi possível encontrar o item dentro da lista!\n');
         }
 
         perguntarAcao();
